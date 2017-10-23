@@ -16,8 +16,7 @@
   "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url":
-      "https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch"
+    "url": "https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch"
   },
   "bugs": {
     "url": "https://github.com/apollographql/apollo-fetch/issues"
@@ -28,12 +27,10 @@
     "test": "npm run test-only --",
     "posttest": "npm run lint",
     "test-only": "mocha --reporter spec --full-trace dist/tests/tests.js",
-    "test-watch":
-      "mocha --reporter spec --full-trace dist/tests/tests.js --watch",
+    "test-watch": "mocha --reporter spec --full-trace dist/tests/tests.js --watch",
     "coverage:test": "_mocha --reporter dot --full-trace dist/tests/tests.js",
     "coverage": "nyc --reporter=lcov npm run coverage:test",
-    "lint":
-      "tslint --type-check -p tsconfig.test.json src/*.ts && tslint --type-check -p tsconfig.test.json tests/*.ts",
+    "lint": "tslint --type-check -p tsconfig.test.json src/*.ts && tslint --type-check -p tsconfig.test.json tests/*.ts",
     "prebuild": "npm run clean:dist",
     "prebuild-test": "npm run clean:test",
     "build": "tsc",
@@ -49,7 +46,7 @@
     "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1"
+    "cross-fetch": "0.0.8"
   },
   "devDependencies": {
     "@types/chai": "4.0.4",
@@ -72,6 +69,8 @@
     "typescript": "2.4.2"
   },
   "nyc": {
-    "exclude": ["tests"]
+    "exclude": [
+      "tests"
+    ]
   }
 }
