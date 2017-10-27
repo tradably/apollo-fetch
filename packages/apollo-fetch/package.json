@@ -17,12 +17,12 @@
   "repository": {
     "type": "git",
     "url":
-      "https://github.com/apollographql/apollo-fetch/tree/master/packages/apollo-fetch"
+      "https://github.com/tradably/apollo-fetch/tree/master/packages/apollo-fetch"
   },
   "bugs": {
-    "url": "https://github.com/apollographql/apollo-fetch/issues"
+    "url": "https://github.com/tradably/apollo-fetch/issues"
   },
-  "homepage": "https://github.com/apollographql/apollo-fetch#readme",
+  "homepage": "https://github.com/tradably/apollo-fetch#readme",
   "scripts": {
     "pretest": "npm run build-test",
     "test": "npm run test-only --",

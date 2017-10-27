@@ -3,7 +3,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollographql/apollo-fetch.git"
+    "url": "git+https://github.com/tradably/apollo-fetch.git"
   },
   "scripts": {
     "bootstrap": "npm i && lerna bootstrap && lerna run -- build",
