@@ -1,6 +1,6 @@
 {
-  "name": "apollo-fetch",
-  "version": "0.6.1",
+  "name": "tradably-apollo-fetch",
+  "version": "0.6.2",
   "description": "Lightweight implementation of fetch for GraphQL requests",
   "author": "Evans Hauser <evanshauser@gmail.com>",
   "contributors": [

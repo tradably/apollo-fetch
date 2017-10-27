@@ -1,5 +1,5 @@
 {
-  "name": "tradably-apollo-fetch",
+  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
